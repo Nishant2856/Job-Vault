@@ -1,0 +1,142 @@
+@charset "UTF-8";
+.company_add_main{
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body > h2 {
+margin-left: 50px;
+margin-top: 30px;
+}
+.inner_main{
+
+    padding: 30px 70px;
+
+   
+    width: 60%;
+}
+
+.inner_main >form{
+    display: flex;
+    flex-direction: column;
+}
+.inner_main > form > input , .inner_main > form > textarea{
+    width: 100%;
+    padding: 5px 20px;
+    margin: 10px 0;
+    background-color: #FFF27E;
+    border-radius: 20px;
+    border: 2px solid #FFF27E;
+    font-size: 17px;
+}
+.inner_main > form > button{
+padding: 10px 20px;
+color: #fff;
+background: #3643F6;
+display:inline-block ;
+margin: 20px 0;
+width: 150px;
+font-size: 18px;
+border-radius: 20px;
+
+}
+.delete{
+    background-color: red;
+}
+
+/* Applicants */
+.a_sec{
+    display: flex;
+    justify-content: space-between;
+}
+.a_sec_1{
+    display: flex;
+    flex-basis: 45%;
+
+}
+.a_sec_1:nth-child(2){
+    justify-content: right;
+}
+.a_sec_1 > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.a_inner_sec{
+display: flex;
+flex-direction: column;
+}
+.a_inner_sec > p {
+    display: flex;
+    align-items: center;
+    margin: 2px 0;
+}
+.a_inner_sec > p > svg{
+    margin-right: 10px;
+    width: 17px;
+}
+.a_sec_1 > button {
+    background-color: #FF5024;
+    height: 40px;
+    text-align: center;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+.a_inner_sec > button{
+    background-color: #4D6CF7;
+    height: 40px;
+    text-align: center;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 15px;
+
+}
+.a_inner_sec > button:nth-child(2){
+    margin-top: 20px;
+    background: #FF3737;
+}
+.-ap{
+    padding: 50px 200px;
+}
+.-jap > h2{
+    margin-bottom: 10px;
+    color: #3643F6;
+    text-transform: capitalize;
+}
+.textarea{
+	height:200px;
+	display:flex;
+	 align-items: start;
+}
+.a_inner_sec > button > a{
+	color:#fff;
+}
+.right_inner {
+	display:flex;
+}
+.right_inner > svg{
+	width:100px;
+	margin-right:10px;
+}
+.com-logo{
+	background:#fff;
+	width:100px;
+	height:100%;
+	padding:20px 10px;
+	border-radius:20px;
+}
+.com-logo > img{
+		width:110px;
+	height:100%;
+}
+.jup{
+	padding:30px 60px;
+}
+/* Applicnts */

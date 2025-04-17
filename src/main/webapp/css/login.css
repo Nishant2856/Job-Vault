@@ -1,0 +1,414 @@
+@charset "UTF-8";
+.login_register_links{
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.-m{
+    flex-basis: 20%;
+}
+.login_register_links > .profile_im {
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    -webkit-box-shadow: 3px 4px 17px -3px rgba(65,47,204,1);
+-moz-box-shadow: 3px 4px 17px -3px rgba(65,47,204,1);
+box-shadow: 3px 4px 17px -3px rgba(65,47,204,1);
+    border-radius: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_register_links > a > img{
+    width: 35px;
+}
+.login_register_links > h3{
+    font-size: 15px;
+    width: fit-content;
+    color: gray;
+    text-transform: capitalize;
+}.logout{
+    font-size: 15px;
+    color: #FF2222;
+}
+.profile_main{
+    padding: 50px 120px;
+}
+.pro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.-p{
+    border-radius: 50%;
+    -webkit-box-shadow: 3px 4px 17px -3px rgba(65,47,204,1);
+    -moz-box-shadow: 3px 4px 17px -3px rgba(65,47,204,1);
+    box-shadow: 3px 4px 17px -3px rgba(65,47,204,1);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.-p >img{
+width: 100%;
+height: 100%;
+}
+.profile_right{
+    flex-basis: 75%;
+}
+.-n{
+    flex-basis: 15%;
+}
+.top-p{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray ;
+    margin-bottom: 8px;
+}
+.inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left_inner , .right_inner{
+    flex-basis: 50%;
+
+}
+.left_inner > div , .right_inner > div{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.left_inner > div > svg , .right_inner > div svg{
+    margin-right: 10px;
+}
+.right_inner{
+    border-left: 1px solid gray;
+    padding-left: 20px;
+}
+.p_title{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    display: flex;align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+.jobs_cart p {
+    color: gray;
+    margin: 15px 0;
+}
+.resume_upload{
+    width: 100%;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px 0;
+    color: gray;
+    flex-direction: column;
+}
+.resume_upload > h3 {
+    color: black;
+}
+.resume_upload > h3 > span{
+    color: blue;
+}
+
+/* CSS for user Applies jobs */
+.applid_j_main{
+    padding: 50px 75px;
+}
+.-r{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.-r > .col-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 40%;
+    padding: 0 10px;
+}
+.-r > .col-1 > h2{
+    font-size: 18px;
+}
+.-r > .col-1 > p{
+    font-size: 16px;
+}
+.-r > .col-1 > img{
+    width: 50px;
+}
+.status{
+    font-size: 16px;
+    color: white;
+    padding: 7px 25px;
+    background: blue;
+    border-radius: 15px;
+    text-align: center;
+
+}
+.accepted{
+    background: green;
+}
+.denied{
+    background: red;
+}
+/* CSS for user Applies jobs */
+.grid-item > img{
+	width:75px
+}
+/* Register */
+.-login{
+    color: blue;
+}
+.-l{
+    flex-basis: 20%;
+}
+.register_main{
+    padding: 50px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.register_left{
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    flex-basis: 30%;
+    border: 1px solid gray ;
+    border-radius: 20px;
+    position: sticky;
+    top: 120px;
+}
+
+.register_left > h2{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 6px 0;
+}
+.register_left > .checks > div{
+    display: flex;
+    align-items: center;
+
+    font-size: 13px;
+    justify-content: start;
+    margin: 5px 0;
+    color: gray;
+}
+.register_left > .checks > div > svg{
+    margin-right: 10px;
+}
+.register_right{
+    background-color: #FFF;
+    display: flex;
+    
+    flex-direction: column;
+    padding: 20px;
+    flex-basis: 60%;
+    border: 1px solid gray ;
+    border-radius: 20px;
+}
+.register_right > form >  p {
+    font-size: 14px;
+    color: gray;
+}
+.register_right > form > div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.register_right > form > div > input{
+    margin: 5px 0;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 80%;
+    font-size: 18px;
+}
+.def{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+.inner-s{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 40%;
+    border: 1px solid gray;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+.inner-s > div > p{
+    color: gray;
+    font-size: 12px;
+}
+.inner-s:checked{
+    background-color: gray;
+}
+.register_right > form > button{
+    color: #fff;
+    background: blue;
+    padding: 10px 20px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 15px;
+    transition: background .15s;
+}
+.register_right > form > button:hover{
+    background: black;
+}
+/* Register */
+
+/* Login */
+.login_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
+}
+.user_login_main{
+    display: flex;
+    position: relative;
+    width: 47%;
+}
+.user_sec1{
+    background: #FFF;
+    flex-basis: 50%
+    ;
+    padding: 50px;
+    position: relative;
+    height: 400px;
+    -webkit-box-shadow: -4px 6px 14px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px 6px 14px -4px rgba(0,0,0,0.75);
+box-shadow: -4px 6px 14px -4px rgba(0,0,0,0.75);
+}
+.user_sec1 > h2{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+.user_sec1 > div{
+    color: #444;
+    display: flex;align-items: center;
+    font-size: 13px;
+    margin: 7px 0;
+
+}
+.user_sec1 > div > svg{
+    margin-right: 5px;
+}
+.user_sec1 > svg{
+    position: absolute;
+    bottom: 0;
+    width: 150px;
+    right: 0;
+}
+
+.user_sec2{
+    background-color: #fff;
+    z-index: 2;
+    padding: 65px;
+    flex-basis: 50%;
+    position: absolute;
+    right: 0;
+    top: -40px;
+    -webkit-box-shadow: -4px 6px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 6px 14px -4px rgba(0,0,0,0.75);
+    box-shadow: -4px 6px 14px -4px rgba(0,0,0,0.75);
+}
+.user_sec2 > form {
+    display: flex;
+    flex-direction: column;
+ 
+}
+.user_sec2 > form > h2{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.user_sec2 > form > div{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.user_sec2 > form > div > input{
+    border: 1px solid #999;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.user_sec2 > form >a {
+    color: blue;
+    font-size: 13px;
+    margin-left: 45%;
+    
+
+}
+.user_sec2 > form > button{
+    color: #fff;
+    background-color: blue;padding: 8px 16px;
+    margin: 50px 0;
+}
+/* loging */
+
+/* Comapny Login */
+.company_login_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    position: relative;
+}
+.-com{
+    position: unset;
+    width: 100px;
+}
+.company_login_main > svg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}
+/* Comapny Login */
+
+/* Company Register */
+.company_register_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.profile_im > img{
+    width: 50px;
+
+    border-radius: 50%;
+}
+.-p{
+    width: 150px;
+    height: 150px;
+}
+.-p > img{
+    width: 100%;
+    height: 100%;
+}
+/* Company Register */
